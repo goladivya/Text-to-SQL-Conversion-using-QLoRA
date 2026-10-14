@@ -50,25 +50,11 @@ These results are from the project's evaluation setup and should not be interpre
 6. Use execution errors as feedback for one retry.
 7. Evaluate the base model and improved configurations.
 
-## Repository Structure
-
-```text
-text-to-sql-llm/
-├── text-sql-project.ipynb
-├── serve.py
-├── README.md
-├── .gitignore
-└── demo/
-    └── index.html
-```
-
-The structure above is a suggested layout. Include only files that actually exist in the repository; add `serve.py` and `demo/` if you have included the backend and static demo.
 
 ## Running the Project
 
 The notebook contains the model fine-tuning and evaluation workflow. Training requires a compatible environment with the necessary Python libraries and sufficient compute resources.
 
-The static demo, if included, showcases the project interface and sample SQL outputs. It does not perform live model inference unless connected to a running backend.
 
 ## Limitations
 
@@ -82,8 +68,6 @@ The static demo, if included, showcases the project interface and sample SQL out
 - Evaluate on a larger development set using standardized benchmark metrics.
 - Improve SQL generation for complex queries and joins.
 - Expand error-feedback and query-correction strategies.
-- Deploy a live inference interface when suitable free compute is available.
 
-## License
 
-Add a license after deciding which license applies to your code and checking the dataset and model licenses.
+
