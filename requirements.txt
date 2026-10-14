@@ -1,0 +1,16 @@
+# Core ML / LLM dependencies
+torch>=2.2.0
+transformers>=4.45.0
+datasets>=3.0.0
+peft>=0.13.0
+accelerate>=1.0.0
+bitsandbytes>=0.44.0
+
+# API and SQL validation
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+sqlglot>=25.0.0
+
+# Notebook / dataset utilities
+numpy>=1.26.0
+pandas>=2.0.0
